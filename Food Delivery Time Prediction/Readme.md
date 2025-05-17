@@ -84,9 +84,9 @@ Use Linear Regression to predict the Delivery Time based on features like Distan
 1. Jupyter Notebook (.ipynb): Complete code for data preprocessing, model training, and evaluation.
 2. Data Visualizations: Visual representations such as scatter plots, pair plots, confusion matrices, and ROC curves to interpret the results.
 3. Final Report:
-  * A detailed summary of the project, including:
-  * Description of the dataset and preprocessing steps.
-  * Model evaluation and comparisons.
-  * Actionable insights and recommendations for optimization.
+   1. A detailed summary of the project, including:
+   2. Description of the dataset and preprocessing steps.
+   3. Model evaluation and comparisons.
+   4. Actionable insights and recommendations for optimization.
 
 
