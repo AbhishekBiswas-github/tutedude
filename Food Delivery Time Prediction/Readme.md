@@ -19,31 +19,31 @@
 
 #### Step 2 - Exploratory Data Analysis (EDA)
 **Descriptive Statistics**
- Calculate the basic statistics for numerical features such as mean, median, mode, and variance.
+Calculate the basic statistics for numerical features such as mean, median, mode, and variance.
 
 **Correlation Analysis**
- Visualize correlations between features and the target variable (Delivery_Time) to identify the most relevant predictors.
+Visualize correlations between features and the target variable (Delivery_Time) to identify the most relevant predictors.
 
 **Outlier Detection**
- Detect outliers in numerical features using boxplots and handle them appropriately.
+Detect outliers in numerical features using boxplots and handle them appropriately.
 
 
 #### Step 3 - Feature Engineering
 **Distance Calculation**
- If the dataset doesn't contain an actual distance metric, calculate the distance between the customer and restaurant using latitudes and longitudes (Haversine formula).
+If the dataset doesn't contain an actual distance metric, calculate the distance between the customer and restaurant using latitudes and longitudes (Haversine formula).
 
 **Time-Based Features**
- Create new features related to the time of day, such as Rush Hour vs Non-Rush Hour, to improve predictions.
+Create new features related to the time of day, such as Rush Hour vs Non-Rush Hour, to improve predictions.
 
 
 ### Phase 2: Predictive Modeling
 
 #### Step 4 - Linear Regression Model
 **Train-Test Split**
- Split the dataset into training and testing sets (e.g., 80/20 split).
+Split the dataset into training and testing sets (e.g., 80/20 split).
 
 **Model Building**
- Use Linear Regression to predict the Delivery Time based on features like Distance, Traffic_Conditions, and Order_Priority.
+Use Linear Regression to predict the Delivery Time based on features like Distance, Traffic_Conditions, and Order_Priority.
 
 **Evaluation Metrics**
  Evaluate the model using:
