@@ -7,9 +7,12 @@
 
 #### Step 1 - Data Import and Preprocessing
 **Dataset** 
- Load the dataset (Food_Delivery_Time_Prediction.csv).
+ Load the dataset [Food_Delivery_Time_Prediction.csv](https://drive.google.com/file/d/1gAJGXBob3zRpJkRWQhvf3a94PS6NhGjx/view?usp=sharing).
+
+
 **Handle Missing Values**
  Check for any missing or inconsistent values in columns such as Distance, Delivery_Time, etc. and decide how to handle them, either through imputation or deletion.
+
 **Data Transformation**
 1. Encode Categorical Variables: Use one-hot encoding or label encoding for variables like Weather Conditions, Traffic Conditions, Vehicle Type.
 2. Normalize/Standardize Numeric Columns: Normalize or standardize continuous features like Distance, Delivery_sTime, and Order_Cost for consistency.
