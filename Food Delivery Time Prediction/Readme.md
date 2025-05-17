@@ -3,6 +3,7 @@
 ## Objective
  The goal is to predict food delivery times based on customer location, restaurant location, weather, traffic, and other factors. This involves both data preprocessing and building predictive models using linear regression and logistic regression.
 
+
 ### Phase 1: Data Collection and Exploratory Data Analysis (EDA)
 
 #### Step 1 - Data Import and Preprocessing
@@ -27,13 +28,13 @@ Visualize correlations between features and the target variable (Delivery_Time) 
 **Outlier Detection**
 Detect outliers in numerical features using boxplots and handle them appropriately.
 
-
 #### Step 3 - Feature Engineering
 **Distance Calculation**
 If the dataset doesn't contain an actual distance metric, calculate the distance between the customer and restaurant using latitudes and longitudes (Haversine formula).
 
 **Time-Based Features**
 Create new features related to the time of day, such as Rush Hour vs Non-Rush Hour, to improve predictions.
+
 
 
 ### Phase 2: Predictive Modeling
@@ -67,6 +68,8 @@ Use Linear Regression to predict the Delivery Time based on features like Distan
 4. F1-score
 5. Confusion Matrix
 
+
+
 ### Phase 3: Reporting and Insights
 
 #### Step 6 - Model Evaluation and Comparison
@@ -79,6 +82,9 @@ Use Linear Regression to predict the Delivery Time based on features like Distan
     * Optimizing delivery routes.
     * Adjusting staffing during high-traffic periods.
     * Providing better training to delivery staff
+
+
+
 
 ## Final Deliverables
 1. Jupyter Notebook (.ipynb): Complete code for data preprocessing, model training, and evaluation.
