@@ -95,8 +95,3 @@ The goal is to analyze global pollution data and develop strategies for pollutio
   - Key findings
   - Model evaluations
   - Actionable recommendations
-
----
-
-🔗 [View Project Report](https://drive.google.com/file/d/1AEMcCWzJ24fc26Q761SEOa1sOsZiJBC5/view?usp=sharing)
-
