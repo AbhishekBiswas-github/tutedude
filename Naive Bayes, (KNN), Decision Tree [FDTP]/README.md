@@ -7,7 +7,7 @@
 ---------------------------------------------
 # Phase 1: Data Preprocessing
 ## Data Import and Cleaning:
-1. Load the dataset (Food_Delivery_Time_Prediction.csv).
+1. Load the dataset [Food_Delivery_Time_Prediction.csv](https://drive.google.com/file/d/1gAJGXBob3zRpJkRWQhvf3a94PS6NhGjx/view)
 2. Handle missing values through imputation.
 3. Encode categorical features (e.g., weather, traffic, and vehicle type) using LabelEncoder.
 4. Normalize continuous features such as distance and delivery time.
